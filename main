@@ -1,0 +1,31 @@
+from view.view_nilai import mencari,cetak,judul,menutidakada
+from view.input_nilai import inputan,ubah,hapus
+judul()
+while True:
+
+    c=input("\nPilih Menu :")
+    if c.lower() == 'k':
+        print(".:Terimakasih:.")
+        ext = input("\nKlik Enter to exit")
+        if ext == '':
+            break
+        else:
+            break
+
+    elif c.lower() == 'l':
+        cetak()
+
+    elif c.lower() == 't':
+        inputan()
+
+    elif c.lower() == 'u':
+        ubah()
+
+    elif c.lower() == 'c':
+        mencari()
+
+    elif c.lower() == 'h':
+        hapus()
+
+    else:
+        menutidakada()
